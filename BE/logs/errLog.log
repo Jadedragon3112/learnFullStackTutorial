@@ -1,0 +1,1 @@
+20240429	16:05:19	8fe04872-23a3-4040-8dfc-ca91d998a36e	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "HNL" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
