@@ -91,9 +91,11 @@ const DashHeader = () => {
   }
 
   const logoutButton = (
-    <button className="icon-button" title="Logout" onClick={sendLogout}>
-      <FontAwesomeIcon icon={faRightFromBracket} />
-    </button>
+    <Link to="/">
+      <button className="icon-button" title="Logout" onClick={sendLogout}>
+        <FontAwesomeIcon icon={faRightFromBracket} />
+      </button>
+    </Link>
   );
 
   const errClass = isError ? "errmsg" : "offscreen";
