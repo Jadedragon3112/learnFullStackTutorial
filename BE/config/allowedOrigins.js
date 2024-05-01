@@ -1,3 +1,5 @@
-const allowedOrigins = ["https://learnfullstacktutorial-be.onrender.com"];
+const allowedOrigins = [
+  "https://learnfullstackmernstacktutorial.onrender.com/",
+];
 
 module.exports = allowedOrigins;
